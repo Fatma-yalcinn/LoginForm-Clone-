@@ -1,0 +1,137 @@
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    padding: 15px;
+    background: #f3f7fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container-contact {
+    width: 1000px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.form-contact {
+    width: 300px;
+    
+
+}
+.container-contact-image{
+    padding-right: 100px;
+}
+
+.form-contact-title {
+    display: block;
+    font-size: 24px;
+    color: #464747 !important;
+
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+    font-weight: 700;
+}
+
+.input1 {
+    display: block;
+    width: 100%;
+    background: #f3f7fb !important;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666 !important;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    height: 45px;
+    border-style: none;
+    border-radius: none !important;
+    font-weight:550;
+
+}
+
+.container-contact-form-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contact-form-btn {
+    height: 50px;
+    width: 100%;
+    background: #E3566D;
+    /* font-family: 'Kanit', sans-serif; */
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    border-style: none;
+
+}
+
+.checkbox #ch1 {
+    cursor: pointer;
+}
+
+.ch-label {
+    color: #666 !important;
+    font-size: 13px;
+    font-weight:550;
+
+}
+
+.login {
+    padding-top: 15px;
+    color: #666 !important;
+    font-size: 12px !important;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.login a {
+    text-decoration: none;
+    color: #666 !important;
+    padding-left: 5px;
+}
+
+@media(max-width: 768px) {
+
+    .container-contact-image {
+        display: none;
+    }
+    .container-contact {
+      display: flex;
+      justify-content: center;
+      padding-left: 0 !important;
+      padding: 50px !important;
+    }
+
+}
+
+@media(max-width: 992px) {
+
+    .container-contact-image {
+        display: none;
+    }
+    .container-contact {
+      display: flex;
+      justify-content: center;
+      padding: 50px !important;
+    }
+
+}
